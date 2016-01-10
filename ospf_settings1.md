@@ -2,7 +2,7 @@
 
 conf t
 
-interface <interface>
+interface !<interface!>
  ip ospf authentication-key <key>
  ip ospf cost <cost>
  
